@@ -12,6 +12,7 @@ class _My_new_ScreenState extends State<My_new_Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Text('megha'),
     );
   }
 }
