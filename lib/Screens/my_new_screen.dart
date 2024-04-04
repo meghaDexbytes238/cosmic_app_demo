@@ -10,6 +10,10 @@ class My_new_Screen extends StatefulWidget {
 class _My_new_ScreenState extends State<My_new_Screen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+      body: Text('megha'),
+    );
+
   }
 }
